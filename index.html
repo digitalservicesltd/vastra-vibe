@@ -1,0 +1,881 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vastra Vibe Bhadwar | Luxury Wedding Rental Boutique</title>
+  <meta name="description" content="Vastra Vibe Bhadwar — Premium bridal lehengas, groom sherwanis and wedding accessories available for exclusive rental. Serving Bhadwar, Nurpur and Himachal Pradesh." />
+  <meta name="keywords" content="bridal lehenga rental, sherwani rental, wedding dress rental Bhadwar, Vastra Vibe, wedding accessories Himachal Pradesh" />
+  <meta name="author" content="Vastra Vibe Bhadwar" />
+  <meta property="og:title" content="Vastra Vibe Bhadwar | Luxury Wedding Rental Boutique" />
+  <meta property="og:description" content="Premium bridal lehengas, sherwanis and wedding accessories for rent. Book your consultation today." />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="assets/images/og/og-image.png" />
+
+  <link rel="icon" href="assets/images/favicon.ico" type="image/x-icon" />
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Jost:wght@300;400;500&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- ============================================================
+       NAVIGATION
+  ============================================================ -->
+  <nav class="navbar" id="navbar" role="navigation" aria-label="Main navigation">
+    <div class="navbar__container">
+      <a href="#hero" class="navbar__brand" aria-label="Vastra Vibe Bhadwar Home">
+        <img
+          src="assets/images/fevicon.ico"
+          alt="Vastra Vibe Bhadwar Logo"
+          class="navbar__logo"
+          width="140"
+          height="48"
+        />
+      </a>
+      <button class="navbar__toggle" id="navToggle" aria-label="Toggle navigation menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="navbar__links" id="navLinks" role="list">
+        <li><a href="#bridal" class="navbar__link">Bridal</a></li>
+        <li><a href="#groom" class="navbar__link">Groom</a></li>
+        <li><a href="#accessories" class="navbar__link">Accessories</a></li>
+        <li><a href="#gallery" class="navbar__link">Gallery</a></li>
+        <li><a href="#visit" class="navbar__link">Visit Us</a></li>
+        <li>
+          <button class="navbar__cta" id="navConsultBtn" aria-label="Book consultation">
+            Consultation
+          </button>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- ============================================================
+       HERO SECTION
+  ============================================================ -->
+  <section class="hero" id="hero" aria-label="Hero section">
+    <div class="hero__bg" aria-hidden="true">
+  <video
+    class="hero__bg-image"
+    autoplay
+    muted
+    loop
+    playsinline
+    poster="assets/images/hero/hero-bg.png"
+  >
+    <source src="assets/videos/hero-video.mp4" type="video/mp4" />
+  </video>
+  <div class="hero__overlay"></div>
+</div>
+    <div class="hero__content">
+      <p class="hero__eyebrow reveal-up">Luxury Wedding Rentals · Bhadwar</p>
+      <h1 class="hero__heading reveal-up">
+        Where Your<br />
+        <em>Perfect Wedding</em><br />
+        Look Begins
+      </h1>
+      <p class="hero__subheading reveal-up">
+        Luxury Bridal &amp; Groom Rentals<br />
+        Curated for Your Special Moments
+      </p>
+      <p class="hero__support reveal-up">
+        Discover statement lehengas, sherwanis and wedding accessories available for exclusive rental.
+        Designed to make your celebration unforgettable.
+      </p>
+      <div class="hero__actions reveal-up">
+        <a href="#bridal" class="btn btn--outline-gold">Explore Bridal Collection</a>
+        <button class="btn btn--ghost" id="heroConsultBtn">Book a WhatsApp Consultation</button>
+      </div>
+    </div>
+    <div class="hero__scroll-indicator" aria-hidden="true">
+      <span></span>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       BRIDAL COLLECTION
+  ============================================================ -->
+  <section class="collection" id="bridal" aria-label="Bridal collection">
+    <div class="container">
+      <div class="section-header reveal-up">
+        <p class="section-header__label">Our Signature</p>
+        <h2 class="section-header__title">Bridal Collection</h2>
+        <div class="section-header__divider" aria-hidden="true"></div>
+        <p class="section-header__desc">
+          Elegant bridal lehengas available for rental, crafted with fine embroidery, luxurious fabrics
+          and timeless wedding aesthetics. Each piece is selected to ensure you shine with confidence
+          on your big day.
+        </p>
+      </div>
+
+      <div class="product-grid">
+
+        <article class="product-card reveal-up" aria-label="Royal Heritage Bridal Lehenga">
+          <div class="product-card__image-wrap">
+            <img
+              src="assets/images/bridal/royal-heritage-lehenga.png"
+              alt="Royal Heritage Bridal Lehenga — deep red embroidered bridal lehenga"
+              class="product-card__image"
+              loading="lazy"
+            />
+          </div>
+          <div class="product-card__body">
+            <div class="product-card__divider" aria-hidden="true"></div>
+            <h3 class="product-card__name">Royal Heritage Bridal Lehenga</h3>
+            <p class="product-card__desc">Premium handcrafted detailing designed for unforgettable wedding moments.</p>
+            <button class="btn btn--card" data-product="Royal Heritage Bridal Lehenga" data-type="Bridal Lehenga">
+              View Details &amp; Enquire
+            </button>
+          </div>
+        </article>
+
+        <article class="product-card reveal-up" aria-label="Pastel Dream Reception Lehenga">
+          <div class="product-card__image-wrap">
+            <img
+              src="assets/images/bridal/pastel-dream-lehenga.png"
+              alt="Pastel Dream Reception Lehenga — soft pink pastel bridal lehenga"
+              class="product-card__image"
+              loading="lazy"
+            />
+          </div>
+          <div class="product-card__body">
+            <div class="product-card__divider" aria-hidden="true"></div>
+            <h3 class="product-card__name">Pastel Dream Reception Lehenga</h3>
+            <p class="product-card__desc">Premium handcrafted detailing designed for unforgettable wedding moments.</p>
+            <button class="btn btn--card" data-product="Pastel Dream Reception Lehenga" data-type="Bridal Lehenga">
+              View Details &amp; Enquire
+            </button>
+          </div>
+        </article>
+
+        <article class="product-card reveal-up" aria-label="Classic Red Regal Bridal Set">
+          <div class="product-card__image-wrap">
+            <img
+              src="assets/images/bridal/classic-red-bridal-set.png"
+              alt="Classic Red Regal Bridal Set — traditional red wedding lehenga"
+              class="product-card__image"
+              loading="lazy"
+            />
+          </div>
+          <div class="product-card__body">
+            <div class="product-card__divider" aria-hidden="true"></div>
+            <h3 class="product-card__name">Classic Red Regal Bridal Set</h3>
+            <p class="product-card__desc">Premium handcrafted detailing designed for unforgettable wedding moments.</p>
+            <button class="btn btn--card" data-product="Classic Red Regal Bridal Set" data-type="Bridal Lehenga">
+              View Details &amp; Enquire
+            </button>
+          </div>
+        </article>
+
+        <article class="product-card reveal-up" aria-label="Velvet Gold Embroidered Lehenga">
+          <div class="product-card__image-wrap">
+            <img
+              src="assets/images/bridal/velvet-gold-lehenga.png"
+              alt="Velvet Gold Embroidered Lehenga — rich gold velvet bridal lehenga"
+              class="product-card__image"
+              loading="lazy"
+            />
+          </div>
+          <div class="product-card__body">
+            <div class="product-card__divider" aria-hidden="true"></div>
+            <h3 class="product-card__name">Velvet Gold Embroidered Lehenga</h3>
+            <p class="product-card__desc">Premium handcrafted detailing designed for unforgettable wedding moments.</p>
+            <button class="btn btn--card" data-product="Velvet Gold Embroidered Lehenga" data-type="Bridal Lehenga">
+              View Details &amp; Enquire
+            </button>
+          </div>
+        </article>
+
+        <article class="product-card reveal-up" aria-label="Modern Champagne Bridal Couture">
+          <div class="product-card__image-wrap">
+            <img
+              src="assets/images/bridal/champagne-bridal-couture.png"
+              alt="Modern Champagne Bridal Couture — contemporary champagne bridal lehenga"
+              class="product-card__image"
+              loading="lazy"
+            />
+          </div>
+          <div class="product-card__body">
+            <div class="product-card__divider" aria-hidden="true"></div>
+            <h3 class="product-card__name">Modern Champagne Bridal Couture</h3>
+            <p class="product-card__desc">Premium handcrafted detailing designed for unforgettable wedding moments.</p>
+            <button class="btn btn--card" data-product="Modern Champagne Bridal Couture" data-type="Bridal Lehenga">
+              View Details &amp; Enquire
+            </button>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       GROOM COLLECTION
+  ============================================================ -->
+  <section class="collection collection--groom" id="groom" aria-label="Groom collection">
+    <div class="container">
+      <div class="section-header reveal-up">
+        <p class="section-header__label">Sophisticated</p>
+        <h2 class="section-header__title">Groom Collection</h2>
+        <div class="section-header__divider" aria-hidden="true"></div>
+        <p class="section-header__desc">
+          Premium sherwanis, Jodhpuri suits and Indo-Western ensembles available for rental.
+          Designed to complement the bride with regal elegance and confident styling.
+        </p>
+      </div>
+
+      <div class="product-grid">
+
+        <article class="product-card reveal-up" aria-label="Royal Ivory Sherwani">
+          <div class="product-card__image-wrap">
+            <img
+              src="assets/images/groom/royal-ivory-sherwani.png"
+              alt="Royal Ivory Sherwani — classic ivory groom sherwani"
+              class="product-card__image"
+              loading="lazy"
+            />
+          </div>
+          <div class="product-card__body">
+            <div class="product-card__divider" aria-hidden="true"></div>
+            <h3 class="product-card__name">Royal Ivory Sherwani</h3>
+            <p class="product-card__desc">Luxury wedding ensembles tailored for grand celebrations.</p>
+            <button class="btn btn--card" data-product="Royal Ivory Sherwani" data-type="Groom Sherwani">
+              Enquire on WhatsApp
+            </button>
+          </div>
+        </article>
+
+        <article class="product-card reveal-up" aria-label="Maroon Heritage Sherwani">
+          <div class="product-card__image-wrap">
+            <img
+              src="assets/images/groom/maroon-heritage-sherwani.png"
+              alt="Maroon Heritage Sherwani — deep maroon wedding sherwani"
+              class="product-card__image"
+              loading="lazy"
+            />
+          </div>
+          <div class="product-card__body">
+            <div class="product-card__divider" aria-hidden="true"></div>
+            <h3 class="product-card__name">Maroon Heritage Sherwani</h3>
+            <p class="product-card__desc">Luxury wedding ensembles tailored for grand celebrations.</p>
+            <button class="btn btn--card" data-product="Maroon Heritage Sherwani" data-type="Groom Sherwani">
+              Enquire on WhatsApp
+            </button>
+          </div>
+        </article>
+
+        <article class="product-card reveal-up" aria-label="Classic Cream Jodhpuri Suit">
+          <div class="product-card__image-wrap">
+            <img
+              src="assets/images/groom/cream-jodhpuri-suit.png"
+              alt="Classic Cream Jodhpuri Suit — elegant cream jodhpuri groom suit"
+              class="product-card__image"
+              loading="lazy"
+            />
+          </div>
+          <div class="product-card__body">
+            <div class="product-card__divider" aria-hidden="true"></div>
+            <h3 class="product-card__name">Classic Cream Jodhpuri Suit</h3>
+            <p class="product-card__desc">Luxury wedding ensembles tailored for grand celebrations.</p>
+            <button class="btn btn--card" data-product="Classic Cream Jodhpuri Suit" data-type="Groom Suit">
+              Enquire on WhatsApp
+            </button>
+          </div>
+        </article>
+
+        <article class="product-card reveal-up" aria-label="Modern Reception Indo-Western Set">
+          <div class="product-card__image-wrap">
+            <img
+              src="assets/images/groom/indo-western-set.png"
+              alt="Modern Reception Indo-Western Set — contemporary fusion groom wear"
+              class="product-card__image"
+              loading="lazy"
+            />
+          </div>
+          <div class="product-card__body">
+            <div class="product-card__divider" aria-hidden="true"></div>
+            <h3 class="product-card__name">Modern Reception Indo-Western Set</h3>
+            <p class="product-card__desc">Luxury wedding ensembles tailored for grand celebrations.</p>
+            <button class="btn btn--card" data-product="Modern Reception Indo-Western Set" data-type="Indo-Western">
+              Enquire on WhatsApp
+            </button>
+          </div>
+        </article>
+
+        <article class="product-card reveal-up" aria-label="Traditional Embroidered Groom Ensemble">
+          <div class="product-card__image-wrap">
+            <img
+              src="assets/images/groom/embroidered-groom-ensemble.png"
+              alt="Traditional Embroidered Groom Ensemble — detailed embroidery groom outfit"
+              class="product-card__image"
+              loading="lazy"
+            />
+          </div>
+          <div class="product-card__body">
+            <div class="product-card__divider" aria-hidden="true"></div>
+            <h3 class="product-card__name">Traditional Embroidered Groom Ensemble</h3>
+            <p class="product-card__desc">Luxury wedding ensembles tailored for grand celebrations.</p>
+            <button class="btn btn--card" data-product="Traditional Embroidered Groom Ensemble" data-type="Groom Ensemble">
+              Enquire on WhatsApp
+            </button>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       ACCESSORIES SECTION
+  ============================================================ -->
+  <section class="accessories" id="accessories" aria-label="Wedding accessories">
+    <div class="container">
+      <div class="section-header reveal-up">
+        <p class="section-header__label">Details that Define</p>
+        <h2 class="section-header__title">Complete Your Wedding Look</h2>
+        <div class="section-header__divider" aria-hidden="true"></div>
+        <p class="section-header__desc">
+          From Kalire to Sehra and Choora, explore our carefully selected wedding accessories
+          that add the perfect finishing touch to your celebration.
+        </p>
+      </div>
+
+      <div class="accessories-grid">
+
+        <article class="accessory-card reveal-up" aria-label="Designer Kalire Collection">
+          <div class="accessory-card__image-wrap">
+            <img
+              src="assets/images/accessories/designer-kalire.png"
+              alt="Designer Kalire Collection — golden bridal kalire"
+              class="accessory-card__image"
+              loading="lazy"
+            />
+          </div>
+          <div class="accessory-card__body">
+            <h3 class="accessory-card__name">Designer Kalire Collection</h3>
+            <button class="btn btn--card-sm" data-product="Designer Kalire Collection" data-type="Accessory">
+              View &amp; Enquire
+            </button>
+          </div>
+        </article>
+
+        <article class="accessory-card reveal-up" aria-label="Elegant Sehra Styles">
+          <div class="accessory-card__image-wrap">
+            <img
+              src="assets/images/accessories/elegant-sehra.png"
+              alt="Elegant Sehra Styles — floral groom sehra"
+              class="accessory-card__image"
+              loading="lazy"
+            />
+          </div>
+          <div class="accessory-card__body">
+            <h3 class="accessory-card__name">Elegant Sehra Styles</h3>
+            <button class="btn btn--card-sm" data-product="Elegant Sehra Styles" data-type="Accessory">
+              View &amp; Enquire
+            </button>
+          </div>
+        </article>
+
+        <article class="accessory-card reveal-up" aria-label="Traditional Bridal Choora Sets">
+          <div class="accessory-card__image-wrap">
+            <img
+              src="assets/images/accessories/bridal-choora.png"
+              alt="Traditional Bridal Choora Sets — red bridal bangles"
+              class="accessory-card__image"
+              loading="lazy"
+            />
+          </div>
+          <div class="accessory-card__body">
+            <h3 class="accessory-card__name">Traditional Bridal Choora Sets</h3>
+            <button class="btn btn--card-sm" data-product="Traditional Bridal Choora Sets" data-type="Accessory">
+              View &amp; Enquire
+            </button>
+          </div>
+        </article>
+
+        <article class="accessory-card reveal-up" aria-label="Wedding Dupattas and Veils">
+          <div class="accessory-card__image-wrap">
+            <img
+              src="assets/images/accessories/wedding-dupattas.png"
+              alt="Wedding Dupattas and Veils — embroidered bridal dupatta"
+              class="accessory-card__image"
+              loading="lazy"
+            />
+          </div>
+          <div class="accessory-card__body">
+            <h3 class="accessory-card__name">Wedding Dupattas &amp; Veils</h3>
+            <button class="btn btn--card-sm" data-product="Wedding Dupattas & Veils" data-type="Accessory">
+              View &amp; Enquire
+            </button>
+          </div>
+        </article>
+
+        <article class="accessory-card reveal-up" aria-label="Premium Safa Collection">
+          <div class="accessory-card__image-wrap">
+            <img
+              src="assets/images/accessories/premium-safa.png"
+              alt="Premium Safa Collection — royal groom turban"
+              class="accessory-card__image"
+              loading="lazy"
+            />
+          </div>
+          <div class="accessory-card__body">
+            <h3 class="accessory-card__name">Premium Safa Collection</h3>
+            <button class="btn btn--card-sm" data-product="Premium Safa Collection" data-type="Accessory">
+              View &amp; Enquire
+            </button>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       WHY CHOOSE US
+  ============================================================ -->
+  <section class="why-us" id="why-us" aria-label="Why choose Vastra Vibe">
+    <div class="container">
+      <div class="section-header section-header--center reveal-up">
+        <p class="section-header__label">Our Promise</p>
+        <h2 class="section-header__title">Why Choose Vastra Vibe Bhadwar</h2>
+        <div class="section-header__divider" aria-hidden="true"></div>
+      </div>
+
+      <div class="why-us__grid">
+
+        <div class="why-us__feature reveal-up">
+          <div class="why-us__icon">
+            <img
+              src="assets/images/icons/quality-icon.png"
+              alt=""
+              width="32"
+              height="32"
+              aria-hidden="true"
+              loading="lazy"
+            />
+          </div>
+          <h3 class="why-us__title">Premium Quality Rental Collection</h3>
+          <p class="why-us__text">Every outfit is carefully maintained to ensure flawless appearance and luxurious feel.</p>
+        </div>
+
+        <div class="why-us__feature reveal-up">
+          <div class="why-us__icon">
+            <img
+              src="assets/images/icons/styling-icon.png"
+              alt=""
+              width="32"
+              height="32"
+              aria-hidden="true"
+              loading="lazy"
+            />
+          </div>
+          <h3 class="why-us__title">Personalized Styling Support</h3>
+          <p class="why-us__text">Get guidance tailored to your wedding theme, body type and preferences.</p>
+        </div>
+
+        <div class="why-us__feature reveal-up">
+          <div class="why-us__icon">
+            <img
+              src="assets/images/icons/trusted-icon.png"
+              alt=""
+              width="32"
+              height="32"
+              aria-hidden="true"
+              loading="lazy"
+            />
+          </div>
+          <h3 class="why-us__title">Trusted Local Boutique</h3>
+          <p class="why-us__text">Serving families across Bhadwar and surrounding regions with dedication and care.</p>
+        </div>
+
+        <div class="why-us__feature reveal-up">
+          <div class="why-us__icon">
+            <img
+              src="assets/images/icons/hassle-free-icon.png"
+              alt=""
+              width="32"
+              height="32"
+              aria-hidden="true"
+              loading="lazy"
+            />
+          </div>
+          <h3 class="why-us__title">Hassle-Free Rental Experience</h3>
+          <p class="why-us__text">Smooth fittings, proper trials and timely availability for your important events.</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       GALLERY SECTION
+  ============================================================ -->
+  <section class="gallery" id="gallery" aria-label="Real brides gallery">
+    <div class="container">
+      <div class="section-header section-header--center reveal-up">
+        <p class="section-header__label">Moments We Cherish</p>
+        <h2 class="section-header__title">Real Brides. Real Celebrations.</h2>
+        <div class="section-header__divider" aria-hidden="true"></div>
+        <p class="section-header__desc">
+          Moments captured from weddings styled by Vastra Vibe. Experience the elegance
+          and confidence of our rental couture in real celebrations.
+        </p>
+      </div>
+    </div>
+
+    <div class="gallery__track-wrap" role="region" aria-label="Bridal gallery slider">
+      <div class="gallery__track" id="galleryTrack">
+
+        <figure class="gallery__item">
+          <img src="assets/images/gallery/gallery-1.png" alt="Bride in royal red lehenga at her wedding celebration" loading="lazy" />
+        </figure>
+        <figure class="gallery__item">
+          <img src="assets/images/gallery/gallery-2.png" alt="Couple in coordinated bridal and groom attire" loading="lazy" />
+        </figure>
+        <figure class="gallery__item">
+          <img src="assets/images/gallery/gallery-3.png" alt="Bridal close-up showing intricate embroidery detail" loading="lazy" />
+        </figure>
+        <figure class="gallery__item">
+          <img src="assets/images/gallery/gallery-4.png" alt="Reception bride in champagne lehenga" loading="lazy" />
+        </figure>
+        <figure class="gallery__item">
+          <img src="assets/images/gallery/gallery-5.png" alt="Groom in ivory sherwani during wedding ceremony" loading="lazy" />
+        </figure>
+        <figure class="gallery__item">
+          <img src="assets/images/gallery/gallery-6.png" alt="Full bridal look with accessories and dupatta" loading="lazy" />
+        </figure>
+        <figure class="gallery__item">
+          <img src="assets/images/gallery/gallery-7.png" alt="Bridal portrait showcasing lehenga embroidery detail" loading="lazy" />
+        </figure>
+        <figure class="gallery__item">
+          <img src="assets/images/gallery/gallery-8.png" alt="Wedding couple styled by Vastra Vibe Bhadwar" loading="lazy" />
+        </figure>
+
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="gallery__cta reveal-up">
+        <a
+          href="https://wa.me/918894868857?text=Hi%20Vastra%20Vibe%2C%20I%20would%20like%20to%20share%20my%20wedding%20look%20styled%20by%20you!"
+          class="btn btn--ghost"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="Share your wedding look on WhatsApp"
+        >
+          Share Your Wedding Look With Us
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       TESTIMONIALS
+  ============================================================ -->
+  <section class="testimonials" id="testimonials" aria-label="Customer testimonials">
+    <div class="container">
+      <div class="section-header section-header--center reveal-up">
+        <p class="section-header__label">Voices of Trust</p>
+        <h2 class="section-header__title">What Our Customers Say</h2>
+        <div class="section-header__divider section-header__divider--dark" aria-hidden="true"></div>
+      </div>
+
+      <div class="testimonials__grid">
+
+        <article class="testimonial-card reveal-up" aria-label="Testimonial from Ritu Sharma">
+          <div class="testimonial-card__stars" aria-label="5 out of 5 stars" role="img">
+            <span aria-hidden="true">★★★★★</span>
+          </div>
+          <blockquote class="testimonial-card__quote">
+            "The bridal collection was absolutely beautiful. The fitting and detailing were perfect.
+            Thank you for making my wedding day extra special."
+          </blockquote>
+          <cite class="testimonial-card__author">Ritu Sharma</cite>
+        </article>
+
+        <article class="testimonial-card reveal-up" aria-label="Testimonial from Neha Kapoor">
+          <div class="testimonial-card__stars" aria-label="5 out of 5 stars" role="img">
+            <span aria-hidden="true">★★★★★</span>
+          </div>
+          <blockquote class="testimonial-card__quote">
+            "Loved the rental options and styling guidance. The team was very helpful and patient
+            throughout the selection process."
+          </blockquote>
+          <cite class="testimonial-card__author">Neha Kapoor</cite>
+        </article>
+
+        <article class="testimonial-card reveal-up" aria-label="Testimonial from Aman Verma">
+          <div class="testimonial-card__stars" aria-label="5 out of 5 stars" role="img">
+            <span aria-hidden="true">★★★★★</span>
+          </div>
+          <blockquote class="testimonial-card__quote">
+            "The sherwani looked royal and elegant. Excellent service and smooth rental process."
+          </blockquote>
+          <cite class="testimonial-card__author">Aman Verma</cite>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       VISIT STORE
+  ============================================================ -->
+  <section class="visit-store" id="visit" aria-label="Visit our boutique">
+    <div class="container">
+      <div class="visit-store__grid">
+
+        <div class="visit-store__image-wrap reveal-left">
+          <img
+            src="assets/images/store/boutique-interior.png"
+            alt="Vastra Vibe Bhadwar boutique interior — elegant wedding rental boutique"
+            class="visit-store__image"
+            loading="lazy"
+          />
+        </div>
+
+        <div class="visit-store__info reveal-up">
+          <p class="section-header__label">Come See Us</p>
+          <h2 class="visit-store__heading">Visit Our Boutique</h2>
+          <div class="section-header__divider section-header__divider--dark" aria-hidden="true"></div>
+
+          <address class="visit-store__address">
+            <strong>Vastra Vibe Bhadwar</strong><br />
+            The Grace Complex, Bhadwar<br />
+            Nurpur, Himachal Pradesh
+          </address>
+
+          <div class="visit-store__timings">
+            <p class="visit-store__timings-label">Store Hours</p>
+            <p>Open All Days &nbsp;·&nbsp; 10:00 AM – 7:00 PM</p>
+          </div>
+
+          <a
+  href="https://www.google.com/maps/place/Vastra+Vibes+Bhadwar/@32.2964082,75.9557494,17z"
+  class="btn btn--outline-dark"
+  target="_blank"
+  rel="noopener noreferrer"
+  aria-label="Get directions to Vastra Vibe Bhadwar"
+>
+  Get Directions
+</a>
+
+          <div class="visit-store__map">
+            <iframe
+  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3398.887!2d75.9557494!3d32.2964082!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x391c9defbd3692e9%3A0xfc77113668828acb!2sVastra%20Vibes%20Bhadwar!5e0!3m2!1sen!2sin!4v1"
+  width="100%"
+  height="220"
+  style="border:0;"
+  allowfullscreen=""
+  loading="lazy"
+  referrerpolicy="no-referrer-when-downgrade"
+  title="Vastra Vibe Bhadwar location map"
+  aria-label="Google Maps showing Vastra Vibe Bhadwar location"
+></iframe>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       FINAL CTA
+  ============================================================ -->
+  <section class="final-cta" id="final-cta" aria-label="Final call to action">
+    <div class="container">
+      <div class="final-cta__content reveal-up">
+        <p class="section-header__label">Your Wedding Awaits</p>
+        <h2 class="final-cta__heading">
+          Planning Your Wedding?<br />
+          <em>Let Us Style Your Perfect Look.</em>
+        </h2>
+        <p class="final-cta__desc">
+          Connect directly with our team for availability, styling guidance and rental enquiries.
+        </p>
+        <button class="btn btn--gold" id="finalCtaBtn">
+          Start WhatsApp Consultation
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       FOOTER
+  ============================================================ -->
+  <footer class="footer" role="contentinfo">
+    <div class="container">
+      <div class="footer__grid">
+
+        <div class="footer__brand">
+          <img
+            src="assets/images/fevicon.ico"
+            alt="Vastra Vibe Bhadwar — Luxury Wedding Rental Boutique"
+            class="footer__logo"
+            width="140"
+            height="48"
+            loading="lazy"
+          />
+          <p class="footer__brand-tagline">Luxury Wedding Rental Boutique</p>
+          <p class="footer__brand-cats">Bridal Lehengas &nbsp;·&nbsp; Groom Sherwanis &nbsp;·&nbsp; Wedding Accessories</p>
+        </div>
+
+        <div class="footer__contact">
+          <p class="footer__contact-label">Reach Us</p>
+          <a href="tel:+918894868857" class="footer__phone" aria-label="Call Vastra Vibe Bhadwar">
+            +91 88948 68857
+          </a>
+          <p class="footer__delivery">All India Delivery Available</p>
+          <address class="footer__address">
+            The Grace Complex, Bhadwar<br />
+            Nurpur, Himachal Pradesh
+          </address>
+        </div>
+
+        <div class="footer__links">
+          <p class="footer__links-label">Quick Links</p>
+          <nav aria-label="Footer navigation">
+            <ul role="list">
+              <li><a href="#bridal">Bridal Collection</a></li>
+              <li><a href="#groom">Groom Collection</a></li>
+              <li><a href="#accessories">Accessories</a></li>
+              <li><a href="#gallery">Gallery</a></li>
+              <li><a href="#visit">Visit Us</a></li>
+            </ul>
+          </nav>
+        </div>
+
+      </div>
+
+      <div class="footer__bottom">
+        <p>© 2026 Vastra Vibe Bhadwar. All Rights Reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ============================================================
+       WHATSAPP CONSULTATION MODAL
+  ============================================================ -->
+  <div class="modal-backdrop" id="modalBackdrop" role="dialog" aria-modal="true" aria-labelledby="modalTitle" aria-hidden="true">
+    <div class="modal" id="consultModal">
+      <button class="modal__close" id="modalClose" aria-label="Close consultation modal">
+        <svg width="18" height="18" viewBox="0 0 18 18" fill="none">
+          <path d="M2 2L16 16M16 2L2 16" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+        </svg>
+      </button>
+
+      <div class="modal__gold-line" aria-hidden="true"></div>
+
+      <h2 class="modal__title" id="modalTitle">Personalized Wedding Styling Consultation</h2>
+      <p class="modal__intro">Please select your preferences below and we will connect with you instantly on WhatsApp.</p>
+
+      <form class="modal__form" id="consultForm" novalidate>
+
+        <div class="form-group">
+          <label class="form-label" for="shoppingFor">Shopping For</label>
+          <div class="form-select-wrap">
+            <select class="form-select" id="shoppingFor" name="shoppingFor" required aria-required="true">
+              <option value="" disabled selected>Select an option</option>
+              <option value="Bride">Bride</option>
+              <option value="Groom">Groom</option>
+              <option value="Family / Party Wear">Family / Party Wear</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label class="form-label" for="occasion">Occasion</label>
+          <div class="form-select-wrap">
+            <select class="form-select" id="occasion" name="occasion" required aria-required="true">
+              <option value="" disabled selected>Select an occasion</option>
+              <option value="Wedding">Wedding</option>
+              <option value="Reception">Reception</option>
+              <option value="Engagement">Engagement</option>
+              <option value="Party">Party</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label class="form-label" for="preferredColor">Preferred Color</label>
+          <input
+            class="form-input"
+            type="text"
+            id="preferredColor"
+            name="preferredColor"
+            placeholder="e.g. Red, Ivory, Pastel Pink"
+            aria-label="Preferred color for your outfit"
+          />
+        </div>
+
+        <div class="form-group">
+          <label class="form-label" for="weddingDate">Wedding Date</label>
+          <input
+            class="form-input"
+            type="date"
+            id="weddingDate"
+            name="weddingDate"
+            aria-label="Your wedding date"
+          />
+        </div>
+
+        <div class="form-group">
+          <label class="form-label" for="customerName">Your Name <span class="form-required" aria-hidden="true">*</span></label>
+          <input
+            class="form-input"
+            type="text"
+            id="customerName"
+            name="customerName"
+            placeholder="Full Name"
+            required
+            aria-required="true"
+            aria-label="Your full name"
+          />
+        </div>
+
+        <div class="form-group">
+          <label class="form-label" for="customerCity">City <span class="form-required" aria-hidden="true">*</span></label>
+          <input
+            class="form-input"
+            type="text"
+            id="customerCity"
+            name="customerCity"
+            placeholder="Your City"
+            required
+            aria-required="true"
+            aria-label="Your city"
+          />
+        </div>
+
+        <button type="submit" class="btn btn--gold btn--full">
+          <svg width="18" height="18" viewBox="0 0 32 32" fill="currentColor" aria-hidden="true" style="vertical-align:middle;margin-right:8px;">
+            <path d="M16 2C8.28 2 2 8.28 2 16C2 18.62 2.72 21.08 4.0 23.2L2 30L9.0 28.04C11.06 29.24 13.46 30 16 30C23.72 30 30 23.72 30 16C30 8.28 23.72 2 16 2ZM22.6 20.6C22.26 21.54 20.72 22.38 19.94 22.5C19.24 22.62 18.36 22.66 17.38 22.34C16.78 22.14 16.0 21.88 15.0 21.44C11.56 19.96 9.3 16.58 9.12 16.34C8.96 16.1 7.8 14.56 7.8 12.96C7.8 11.36 8.64 10.58 8.94 10.26C9.24 9.94 9.6 9.86 9.82 9.86C10.04 9.86 10.26 9.86 10.46 9.87C10.68 9.88 10.98 9.79 11.27 10.48C11.58 11.19 12.32 12.79 12.41 12.97C12.5 13.15 12.56 13.36 12.44 13.6C12.32 13.84 12.26 14.0 12.08 14.2C11.9 14.4 11.7 14.64 11.54 14.8C11.36 14.98 11.18 15.18 11.38 15.52C11.58 15.86 12.32 17.04 13.4 18.0C14.8 19.24 15.96 19.64 16.3 19.82C16.64 20.0 16.84 19.97 17.04 19.74C17.24 19.51 17.96 18.66 18.18 18.32C18.4 17.98 18.64 18.04 18.96 18.16C19.28 18.28 20.88 19.06 21.22 19.24C21.56 19.42 21.78 19.51 21.87 19.65C21.96 19.81 21.96 20.52 21.62 21.46"/>
+          </svg>
+          Proceed to WhatsApp
+        </button>
+
+      </form>
+    </div>
+  </div>
+
+  <!-- ============================================================
+       STICKY WHATSAPP BAR
+  ============================================================ -->
+  <div class="sticky-wa" id="stickyWa" aria-label="Talk to our wedding stylist">
+    <button class="sticky-wa__btn" id="stickyWaBtn" aria-label="Open WhatsApp consultation">
+      <svg class="sticky-wa__icon" width="20" height="20" viewBox="0 0 32 32" fill="currentColor" aria-hidden="true">
+        <path d="M16 2C8.28 2 2 8.28 2 16C2 18.62 2.72 21.08 4.0 23.2L2 30L9.0 28.04C11.06 29.24 13.46 30 16 30C23.72 30 30 23.72 30 16C30 8.28 23.72 2 16 2ZM22.6 20.6C22.26 21.54 20.72 22.38 19.94 22.5C19.24 22.62 18.36 22.66 17.38 22.34C16.78 22.14 16.0 21.88 15.0 21.44C11.56 19.96 9.3 16.58 9.12 16.34C8.96 16.1 7.8 14.56 7.8 12.96C7.8 11.36 8.64 10.58 8.94 10.26C9.24 9.94 9.6 9.86 9.82 9.86C10.04 9.86 10.26 9.86 10.46 9.87C10.68 9.88 10.98 9.79 11.27 10.48C11.58 11.19 12.32 12.79 12.41 12.97C12.5 13.15 12.56 13.36 12.44 13.6C12.32 13.84 12.26 14.0 12.08 14.2C11.9 14.4 11.7 14.64 11.54 14.8C11.36 14.98 11.18 15.18 11.38 15.52C11.58 15.86 12.32 17.04 13.4 18.0C14.8 19.24 15.96 19.64 16.3 19.82C16.64 20.0 16.84 19.97 17.04 19.74C17.24 19.51 17.96 18.66 18.18 18.32C18.4 17.98 18.64 18.04 18.96 18.16C19.28 18.28 20.88 19.06 21.22 19.24C21.56 19.42 21.78 19.51 21.87 19.65C21.96 19.81 21.96 20.52 21.62 21.46"/>
+      </svg>
+      <span class="sticky-wa__text">Talk to Our Wedding Stylist</span>
+    </button>
+  </div>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
