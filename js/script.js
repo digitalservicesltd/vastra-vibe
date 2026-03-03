@@ -21,7 +21,7 @@
    1. CONSTANTS & STATE
 ============================================================ */
 
-const WA_NUMBER = '918894868857'; // WhatsApp number with country code
+const WA_NUMBER = '919805596619'; // WhatsApp number with country code
 
 const state = {
   modalOpen: false,
@@ -524,5 +524,6 @@ document.addEventListener('DOMContentLoaded', () => {
       }
     });
   });
+
 
 });
