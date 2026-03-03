@@ -1495,4 +1495,24 @@ section {
 
   .footer__logo { height: 40px; }
   .navbar__logo { height: 32px; }
+   
+}
+.navbar__brand-name {
+  font-family: 'Playfair Display', serif;
+  font-size: 22px;
+  font-weight: 600;
+  letter-spacing: 1px;
+
+  background: linear-gradient(
+    90deg,
+    #8c6a2f,
+    #c9a227,
+    #f7e27a,
+    #c9a227,
+    #8c6a2f
+  );
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
 }
